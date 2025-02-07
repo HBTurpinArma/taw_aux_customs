@@ -5,8 +5,8 @@
 #include "CfgUnitInsignia.hpp"
 
 //ACE Arsenal Extended Compatibility
-#include "XtdGearModels.hpp"
-#include "XtdGearInfos.hpp"
+//#include "XtdGearModels.hpp"
+//#include "XtdGearInfos.hpp"
 
 
 //Ground Vehicles
