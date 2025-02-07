@@ -2,13 +2,11 @@
 #include "CfgFunctions.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
+#include "CfgUnitInsignia.hpp"
 
 //ACE Arsenal Extended Compatibility
 #include "XtdGearModels.hpp"
 #include "XtdGearInfos.hpp"
-
-
-
 
 
 //Ground Vehicles

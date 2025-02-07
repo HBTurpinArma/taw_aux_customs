@@ -7,8 +7,6 @@ class cfgPatches
 		requiredAddons[]={
 			"aceax_gearinfo", //Ace Extended Arsenal Compat
 			"A3_Soft_F_Exp", //Qilin
-			"rhsusf_main", //Pilot Helmet
-			"rhsusf_infantry2" //Pilot Helmet
 		};
 		requiredVersion=1.0;
 		weapons[]={};
