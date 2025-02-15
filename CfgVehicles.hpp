@@ -38,9 +38,9 @@ class cfgVehicles
 		textureList[] = {"Custom_Black", 0, "Custom_Recon", 1};
 	};
 
-	////////////////////////////
-	//Alpine Ghillie Retexture//
-	////////////////////////////
+	////////////////
+	//Blufor Units//
+	////////////////
 	class B_ghillie_lsh_F; 
 	class B_ghillie_alpine_F: B_ghillie_lsh_F
 	{
@@ -53,4 +53,15 @@ class cfgVehicles
 			"TAW_AUX_CUSTOMS\Data\ghillie\ghillie_threads_5LOD_alpine_co.paa"
 		};
 	};
+
+	///////////////
+	//Opfor Units//
+	///////////////
+	// Add heavy EOD / jugg unit with HMG and high armour, forced walking.
+	
+
+
+
+
+
 };
