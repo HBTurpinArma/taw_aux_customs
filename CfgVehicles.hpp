@@ -37,4 +37,20 @@ class cfgVehicles
 		hiddenSelectionsTextures[] = {"\TAW_AUX_CUSTOMS\Data\lsv_02\lsv_01_custom_recon_co.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
 		textureList[] = {"Custom_Black", 0, "Custom_Recon", 1};
 	};
+
+	////////////////////////////
+	//Alpine Ghillie Retexture//
+	////////////////////////////
+	class B_ghillie_lsh_F; 
+	class B_ghillie_alpine_F: B_ghillie_lsh_F
+	{
+		displayName = "Sniper (Alpine)";
+		uniformClass = "U_B_FullGhillie_alpine";
+		hiddenSelectionsTextures[]=
+		{
+			"TAW_AUX_CUSTOMS\Data\ghillie\ghillie_coverall_alpine_co.paa",
+			"TAW_AUX_CUSTOMS\Data\ghillie\ghillie_threads_alpine_ca.paa",
+			"TAW_AUX_CUSTOMS\Data\ghillie\ghillie_threads_5LOD_alpine_co.paa"
+		};
+	};
 };
