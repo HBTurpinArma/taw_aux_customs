@@ -13,7 +13,7 @@ class cfgPatches
 		};
 		requiredVersion=1.0;
 		weapons[]={"U_B_FullGhillie_alpine"};
-		units[]={"B_ghillie_alpine_F"};
+		units[]={"B_ghillie_alpine_F", "B_LSV_02_armed_F_custom_recon"};
 		magazines[]={};
 		ammo[]={};
 	};
