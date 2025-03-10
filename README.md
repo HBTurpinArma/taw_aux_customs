@@ -12,3 +12,6 @@
 **Factions**
 - Added Sniper (Alpine) to NATO faction
 - Added ...
+
+**Misc**
+- Adds Ace NVG WP Arsenal Extended Compat
