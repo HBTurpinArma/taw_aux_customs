@@ -5,6 +5,9 @@ class cfgVehicles
 		class TextureSources;
 		class Turrets;
 	};
+	/////////////////////////
+	//LSV Standing Turn Out//
+	/////////////////////////
 	class LSV_01_base_F: Car_F {
 		class CargoTurret;
 		class Turrets: Turrets
@@ -623,12 +626,66 @@ class cfgVehicles
 		textureList[] = {"Custom_Black", 0, "Custom_Recon", 1};
 	};
 
+
+	//////////////////////
+	//Blufor Taru & Pods//
+	//////////////////////
+	class O_Heli_Transport_04_F;
+	class B_Heli_Transport_04_F: O_Heli_Transport_04_F {
+		//displayName = "Mi-290 Taru";
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		faction = "BLU_F";
+		crew = "B_Helipilot_F";
+		typicalCargo[] = {"B_Helipilot_F"};
+
+		hiddenSelectionsTextures[] = {"A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_01_Black_co.paa","A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_02_Black_co.paa"};
+		//hiddenSelectionsTextures[] = {"A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_01_Black_co.paa","A3\Air_F_Heli\Heli_Transport_04\Data\heli_transport_04_base_02_Black_co.paa","A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext01_Black_CO.paa","A3\Air_F_Heli\Heli_Transport_04\Data\Heli_Transport_04_Pod_Ext02_Black_CO.paa"};
+	};
+
+	class Land_Pod_Heli_Transport_04_box_F;
+	class Land_Pod_Heli_Transport_04_bench_F;
+	class Land_Pod_Heli_Transport_04_covered_F;
+	class Land_Pod_Heli_Transport_04_fuel_F;
+	class Land_Pod_Heli_Transport_04_medevac_F;
+	class Land_Pod_Heli_Transport_04_repair_F;
+	class Land_Pod_Heli_Transport_04_ammo_F;
+
+	class Land_Pod_Heli_Transport_04_box_black_F: Land_Pod_Heli_Transport_04_box_F {
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class Land_Pod_Heli_Transport_04_bench_black_F: Land_Pod_Heli_Transport_04_bench_F {
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class Land_Pod_Heli_Transport_04_covered_black_F: Land_Pod_Heli_Transport_04_covered_F {
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class Land_Pod_Heli_Transport_04_fuel_black_F: Land_Pod_Heli_Transport_04_fuel_F {
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class Land_Pod_Heli_Transport_04_medevac_black_F: Land_Pod_Heli_Transport_04_medevac_F {
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class Land_Pod_Heli_Transport_04_repair_black_F: Land_Pod_Heli_Transport_04_repair_F {
+		scope = 2;
+		scopeCurator = 2;
+	};
+	class Land_Pod_Heli_Transport_04_ammo_black_F: Land_Pod_Heli_Transport_04_ammo_F {
+		scope = 2;
+		scopeCurator = 2;
+	};
+
 	////////////////
 	//Blufor Units//
 	////////////////
 	class B_ghillie_lsh_F; 
-	class B_ghillie_alpine_F: B_ghillie_lsh_F
-	{
+	class B_ghillie_alpine_F: B_ghillie_lsh_F {
 		displayName = "Sniper (Alpine)";
 		uniformClass = "U_B_FullGhillie_alpine";
 		hiddenSelectionsTextures[]=
