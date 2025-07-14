@@ -13,7 +13,11 @@ class cfgPatches
 		};
 		requiredVersion=1.0;
 		weapons[]={"U_B_FullGhillie_alpine"};
-		units[]={"B_ghillie_alpine_F", "B_LSV_02_unarmed_F", "B_LSV_02_unarmed_F_custom_recon", "B_LSV_02_armed_F", "B_LSV_02_armed_F_custom_recon", "B_LSV_02_AT_F", "B_LSV_02_AT_F_custom_recon"};
+		units[]={
+			"B_ghillie_alpine_F", 
+			"B_LSV_02_unarmed_F", "B_LSV_02_unarmed_F_custom_recon", "B_LSV_02_armed_F", "B_LSV_02_armed_F_custom_recon", "B_LSV_02_AT_F", "B_LSV_02_AT_F_custom_recon",
+			"B_T_VTOL_02_infantry_dynamicLoadout_F", "B_T_VTOL_02_vehicle_dynamicLoadout_F"
+		};
 		magazines[]={};
 		ammo[]={};
 	};

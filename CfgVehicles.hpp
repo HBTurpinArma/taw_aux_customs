@@ -626,6 +626,80 @@ class cfgVehicles
 		textureList[] = {"Custom_Black", 0, "Custom_Recon", 1};
 	};
 
+	////////////////
+	//Blufor Xi'an//
+	////////////////
+	class O_T_VTOL_02_infantry_dynamicLoadout_F;
+	class B_T_VTOL_02_infantry_dynamicLoadout_F: O_T_VTOL_02_infantry_dynamicLoadout_F {
+		displayName="Y-32C Xi'an (Infantry Transport)";
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		faction = "BLU_F";
+		crew = "B_Pilot_F";
+		typicalCargo[] = {"B_Pilot_F"};
+
+		class TextureSources {
+			class Black {
+				displayName = "Black (NATO)";
+				factions[] = {"BLU_F"};
+				textures[]= {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_black_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_black_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_black_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_black_co.paa"};
+			};
+			class Grey {
+				displayName = "Grey (NATO)";
+				factions[] = {"BLU_F"};
+				textures[]= {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_grey_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_grey_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_grey_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_grey_co.paa"};
+			};
+			class Green {
+				displayName = "Green (NATO)";
+				factions[] = {"BLU_F"};
+				textures[]= {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_green_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_green_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_green_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_green_co.paa"};
+			};
+			class Tan {
+				displayName = "Tan (NATO)";
+				factions[] = {"BLU_F"};
+				textures[]= {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_tan_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_tan_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_tan_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_tan_co.paa"};
+			};
+		};
+		textureList[]={"Grey", 0, "Black", 1, "Green", 0, "Tan", 0};
+		hiddenSelectionsTextures[] = {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_black_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_black_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_black_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_black_co.paa"};
+	};
+
+	class O_T_VTOL_02_vehicle_dynamicLoadout_F;
+	class B_T_VTOL_02_vehicle_dynamicLoadout_F: O_T_VTOL_02_vehicle_dynamicLoadout_F {
+		displayName="Y-32C Xi'an (Vehicle Transport)";
+		scope = 2;
+		scopeCurator = 2;
+		side = 1;
+		faction = "BLU_F";
+		crew = "B_Pilot_F";
+		typicalCargo[] = {"B_Pilot_F"};
+
+		class TextureSources {
+			class Black {
+				displayName = "Black (NATO)";
+				factions[] = {"BLU_F"};
+				textures[]= {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_black_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_black_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_black_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_black_co.paa"};
+			};
+			class Grey {
+				displayName = "Grey (NATO)";
+				factions[] = {"BLU_F"};
+				textures[]= {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_grey_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_grey_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_grey_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_grey_co.paa"};
+			};
+			class Green {
+				displayName = "Green (NATO)";
+				factions[] = {"BLU_F"};
+				textures[]= {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_green_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_green_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_green_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_green_co.paa"};
+			};
+			class Tan {
+				displayName = "Tan (NATO)";
+				factions[] = {"BLU_F"};
+				textures[]= {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_tan_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_tan_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_tan_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_tan_co.paa"};
+			};
+		};
+		textureList[]={"Grey", 0, "Black", 1, "Green", 0, "Tan", 0};
+		hiddenSelectionsTextures[] = {"\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext01_black_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext02_black_co.paa", "\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_l_black_co.paa","\TAW_AUX_CUSTOMS\Data\vtol_02\vtol_02_ext03_r_black_co.paa"};
+	};
 
 	//////////////////////
 	//Blufor Taru & Pods//
