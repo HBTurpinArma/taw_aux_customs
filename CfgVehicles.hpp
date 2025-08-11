@@ -754,6 +754,21 @@ class cfgVehicles
 	class Land_Pod_Heli_Transport_04_medevac_black_F: Land_Pod_Heli_Transport_04_medevac_F {
 		scope = 2;
 		scopeCurator = 2;
+		
+		class UserActions {
+			class ACE_FullHeal {
+				displayName = "<t color='#FF0000'>Heal</t>";
+				priority = 50;
+				radius = 5;
+				position = "interact";
+				showWindow = 0;
+				hideOnUse = 1;
+				onlyForPlayer = 0;
+				shortcut = "";
+				condition = "true";
+				statement = "[objNull, player] call ace_medical_treatment_fnc_fullHeal";
+			};
+		};
 	};
 	class Land_Pod_Heli_Transport_04_repair_black_F: Land_Pod_Heli_Transport_04_repair_F {
 		scope = 2;
